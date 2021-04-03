@@ -1,0 +1,19 @@
+
+.label{
+		height:40;
+}
+
+.buttons{
+	border:medium solid #999;
+	width:900px;
+}
+
+
+.btn{
+	border:medium solid #999;
+	flex-grow:1;
+	display:flex;
+	flex-flow:row;
+	padding:10px;
+ 	
+}
