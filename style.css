@@ -1,19 +1,30 @@
 
+body{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	min-height:100vh;
+	flex-direction:column;
+	
+}
+
 .label{
 		height:40;
 }
 
 .buttons{
 	border:medium solid #999;
-	width:900px;
+	display:flex;
+	justify-content:center;
+	align-items:center;
 }
 
 
 .btn{
 	border:medium solid #999;
-	flex-grow:1;
+	margin:15px 10px;
 	display:flex;
-	flex-flow:row;
+	flex-flow:nowrap;
 	padding:10px;
  	
 }
